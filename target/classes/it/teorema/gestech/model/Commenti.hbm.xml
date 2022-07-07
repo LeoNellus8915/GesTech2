@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<hibernate-mapping>
+	<class name="it.teorema.gestech.model.Commenti" table="hy_commenti">
+		<id name="id" type="int" column="id">
+			<generator class="native"/>
+		</id>
+		<property name="id_file_risorsa" type="int" column="id_file_risorsa"/>
+		<property name="note" type="string" column="note"/>
+		<property name="data" type="datetime" column="data"/>
+	</class>
+</hibernate-mapping>

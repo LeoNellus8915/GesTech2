@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<hibernate-mapping>
+	<class name="it.teorema.gestech.model.Dettagli_risorsa" table="hy_dettagli_risorsa">
+		<id name="id" type="int" column="id">
+			<generator class="native"/>
+		</id>
+		<property name="id_risorsa" type="int" column="id_risorsa"/>
+		<property name="note" type="string" column="note"/>
+		<property name="data" type="date" column="data"/>
+		<property name="id_risorsa" type="int" column="id_risorsa"/>
+		<property name="id_esito_colloquio" type="int" column="id_esito_colloquio"/>
+		<property name="id_skill" type="int" column="id_skill"/>
+		<property name="id_tech1" type="int" column="id_tech1"/>
+		<property name="id_tech2" type="int" column="id_tech2"/>
+		<property name="id_tech3" type="int" column="id_tech3"/>
+		<property name="id_tech4" type="int" column="id_tech4"/>
+		<property name="id_lingua1" type="int" column="id_lingua1"/>
+		<property name="id_lingua2" type="int" column="id_lingua2"/>
+		<property name="id_lingua3" type="int" column="id_lingua3"/>
+		<property name="id_seniority" type="int" column="id_seniority"/>
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<hibernate-mapping>
+	<class name="it.teorema.gestech.model.Menu" table="sy_menu">
+		<id name="id" type="int" column="id">
+			<generator class="native"/>
+		</id>
+		<property name="id_ruolo" type="int" column="id_ruolo"/>
+		<property name="categoria" type="string" column="categoria"/>
+		<property name="lable" type="string" column="lable"/>
+		<property name="url" type="string" column="url"/>
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<hibernate-mapping>
+	<class name="it.teorema.gestech.model.Risorse" table="sy_risorse">
+		<id name="id" type="int" column="id">
+			<generator class="native"/>
+		</id>
+		<property name="nome_cognome" type="string" column="nome"/>
+		<property name="recapito" type="string" column="nome"/>
+		<property name="email" type="string" column="nome"/>
+		<property name="profilo_linkedin" type="string" column="nome"/>
+		<property name="citta" type="string" column="nome"/>
+		<property name="ruolo" type="string" column="nome"/>
+		<property name="competenza_principale" type="string" column="nome"/>
+		<property name="data_colloquio" type="date" column="nome"/>
+		<property name="anno_colloquio" type="string" column="nome"/>
+		<property name="esito_colloquio" type="string" column="nome"/>
+		<property name="fonte_reperimento" type="string" column="nome"/>
+		<property name="nome" type="string" column="nome"/>
+		<property name="nome" type="string" column="nome"/>
+		<property name="nome" type="string" column="nome"/>
+		<property name="nome" type="string" column="nome"/>
+		
+	</class>
+</hibernate-mapping>

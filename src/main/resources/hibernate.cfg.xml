@@ -7,22 +7,23 @@
    <session-factory>
       <property name = "hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
       <property name = "hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
-      <property name = "hibernate.connection.url">jdbc:mysql://localhost:3306/gestech?serverTimezone=GMT</property>
+      <property name = "hibernate.connection.url">jdbc:mysql://localhost:3306/gestech2?serverTimezone=GMT</property>
       <property name = "show_sql">true</property>
       <property name = "hibernate.current_session_context_class">thread</property>
       <property name = "hibernate.connection.username">root</property>
       <property name = "hibernate.connection.password">miao</property>
-      <mapping resource = "model/Utente.hbm.xml"/>
-      <mapping resource = "model/Bustepaga.hbm.xml"/>
-      <mapping resource = "model/Certificazione_Unica.hbm.xml"/>
-      <mapping resource = "model/Profilo.hbm.xml"/>
-      <mapping resource = "model/Commento.hbm.xml"/>
-      <mapping resource = "model/Lingua.hbm.xml"/>
-      <mapping resource = "model/Seniority.hbm.xml"/>
-      <mapping resource = "model/Skill.hbm.xml"/>
-      <mapping resource = "model/Tech.hbm.xml"/>
-      <mapping resource = "model/Esito_Colloquio.hbm.xml"/>
-      <mapping resource = "model/Ruolo.hbm.xml"/>
-      <mapping resource = "model/Avvisi.hbm.xml"/>
+      <mapping resource = "it.teorema.gestech.model/Auth.hbm.xml"/>
+      <mapping resource = "it.teorema.gestech.model/Avvisi.hbm.xml"/>
+      <mapping resource = "it.teorema.gestech.model/Commenti.hbm.xml"/>
+      <mapping resource = "it.teorema.gestech.model/Dettagli_risorsa.hbm.xml"/>
+      <mapping resource = "it.teorema.gestech.model/Esiti_colloqio.hbm.xml"/>
+      <mapping resource = "it.teorema.gestech.model/Linguaggi.hbm.xml"/>
+      <mapping resource = "it.teorema.gestech.model/Lingue.hbm.xml"/>
+      <mapping resource = "it.teorema.gestech.model/Livelli.hbm.xml"/>
+      <mapping resource = "it.teorema.gestech.model/Menu.hbm.xml"/>
+      <mapping resource = "it.teorema.gestech.model/Profili.hbm.xml"/>
+      <mapping resource = "it.teorema.gestech.model/Risorse.hbm.xml"/>
+      <mapping resource = "it.teorema.gestech.model/Ruoli_risorse.hbm.xml"/>
+      <mapping resource = "it.teorema.gestech.model/Ruoli.hbm.xml"/>
    </session-factory>
 </hibernate-configuration>

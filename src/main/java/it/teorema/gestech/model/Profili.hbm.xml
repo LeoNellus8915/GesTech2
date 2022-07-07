@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<hibernate-mapping>
+	<class name="it.teorema.gestech.model.Profili" table="ty_profili">
+		<id name="id" type="int" column="id">
+			<generator class="native"/>
+		</id>
+		<property name="nome" type="string" column="nome"/>
+	</class>
+</hibernate-mapping>
