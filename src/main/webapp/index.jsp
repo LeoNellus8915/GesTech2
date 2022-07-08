@@ -68,24 +68,26 @@
 	                		<p class="s-18 p-t-b-20 font-weight-lighter">Inserisci le credenziali per accedere al sistema</p>
 	                	</div>
 	            		<div class="col-lg-2"></div>
-                       	<div class="row">
-                            <div class="col-lg-6">
-                                <div class="form-group has-icon"><i class="icon-envelope-o"></i>
-                                    <input type="text" id="email" class="form-control form-control-lg no-b" name="email" placeholder="error@mail.com" required pattern="[^@\s]+@[^@\s]+\.[^@\s]+" title="Esempio error@mail.com">
-                                    
-                                </div>
-                            </div>
-                            <div class="col-lg-6">
-                                <div class="form-group has-icon"><i class="icon-user-secret"></i>
-                                    <input type="password" id="password" name="password" class="form-control form-control-lg no-b" placeholder="**********">
-                                    
-                                </div>
-                            </div>
-                            <div class="col-lg-12">
-                                <input type="submit" onclick="login()" class="btn btn-success btn-lg btn-block marbot" value="Accedi">
-                                <p class="forget-pass text-white">Hai dimenticato il nome utente o la password?</p>
-                            </div>
-                        </div>
+	            		<form method="post" action="login">
+	                       	<div class="row">
+	                            <div class="col-lg-6">
+	                                <div class="form-group has-icon"><i class="icon-envelope-o"></i>
+	                                    <input type="text" id="email" class="form-control form-control-lg no-b" name="email" placeholder="error@mail.com" required pattern="[^@\s]+@[^@\s]+\.[^@\s]+" title="Esempio error@mail.com">
+	                                    
+	                                </div>
+	                            </div>
+	                            <div class="col-lg-6">
+	                                <div class="form-group has-icon"><i class="icon-user-secret"></i>
+	                                    <input type="password" id="password" name="password" class="form-control form-control-lg no-b" placeholder="**********">
+	                                    
+	                                </div>
+	                            </div>
+	                            <div class="col-lg-12">
+	                                <input type="submit" class="btn btn-success btn-lg btn-block marbot" value="Accedi">
+	                                <p class="forget-pass text-white">Hai dimenticato il nome utente o la password?</p>
+	                            </div>
+	                        </div>
+	                	</form>
                 	</div>
             	</div>
         	</div>

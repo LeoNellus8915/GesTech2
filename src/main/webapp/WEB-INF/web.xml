@@ -4,4 +4,17 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>Auth</servlet-name>
+  	<display-name>Auth</display-name>
+  	<description></description>
+  	<servlet-class>it.teorema.gestech.controller.Auth</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>Auth</servlet-name>
+  	<url-pattern>/Auth</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+</welcome-file-list>
 </web-app>
