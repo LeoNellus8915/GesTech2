@@ -2528,12 +2528,12 @@ fieldset:disabled a.btn {
 .btn-success {
     color: #212529;
     background-color: #7dc855;
-    border-color: #7dc855
+    border-color: #7dc855 
 }
 
 .btn-success:hover {
     color: #fff;
-    background-color: #68ba3c;
+    background-color: #68ba3c !important;
     border-color: #63b139
 }
 
@@ -3092,7 +3092,11 @@ fieldset:disabled a.btn {
 input[type=button].btn-block,
 input[type=reset].btn-block,
 input[type=submit].btn-block {
-    width: 100%
+    width: 100%;
+    border-radius: 30px;
+    background-color: rgb(12, 12, 135);
+    border: none;
+    padding: 5 25 5 25;
 }
 
 .fade {
@@ -24167,7 +24171,8 @@ h6 {
 p {
     font-size: 14px;
     font-weight: 300;
-    letter-spacing: .2px
+    letter-spacing: .2px;
+    margin-left: 20px;
 }
 
 img {
