@@ -28,13 +28,13 @@ CREATE TABLE `hy_dettaglio_risorsa` (
   `id` int NOT NULL AUTO_INCREMENT,
   `id_risorsa` int DEFAULT NULL,
   `file_base64` text,
-  `data` date DEFAULT NULL,
+  `data_inserimento` date DEFAULT NULL,
   `id_esito_colloquio` int DEFAULT NULL,
-  `id_skill` int DEFAULT NULL,
-  `id_tech1` int DEFAULT NULL,
-  `id_tech2` int DEFAULT NULL,
-  `id_tech3` int DEFAULT NULL,
-  `id_tech4` int DEFAULT NULL,
+  `id_skill1` int DEFAULT NULL,
+  `id_skill2` int DEFAULT NULL,
+  `id_skill3` int DEFAULT NULL,
+  `id_skill4` int DEFAULT NULL,
+  `id_skill5` int DEFAULT NULL,
   `id_lingua1` int DEFAULT NULL,
   `id_lingua2` int DEFAULT NULL,
   `id_lingua3` int DEFAULT NULL,
@@ -61,4 +61,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-07-07 15:55:39
+-- Dump completed on 2022-07-12 15:34:44

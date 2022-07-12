@@ -31,14 +31,14 @@ CREATE TABLE `sy_risorse` (
   `email` varchar(50) DEFAULT NULL,
   `profilo_linkedin` varchar(500) DEFAULT NULL,
   `citta` varchar(50) DEFAULT NULL,
-  `ruolo` varchar(30) DEFAULT NULL,
+  `ruolo_risorsa` varchar(30) DEFAULT NULL,
   `competenza_principale` varchar(100) DEFAULT NULL,
-  `data_colloquio` varchar(10) DEFAULT NULL,
+  `data_colloquio` date DEFAULT NULL,
   `anno_colloquio` varchar(5) DEFAULT NULL,
   `fonte_reperimento` varchar(50) DEFAULT NULL,
   `costo_giornaliero` double DEFAULT NULL,
   `possibilita_lavorativa` varchar(30) DEFAULT NULL,
-  `tech_campo_libero` varchar(100) DEFAULT NULL,
+  `skill_campo_libero` varchar(100) DEFAULT NULL,
   `competenze_totali` varchar(100) DEFAULT NULL,
   `certificazioni` varchar(100) DEFAULT NULL,
   PRIMARY KEY (`id`)
@@ -51,7 +51,7 @@ CREATE TABLE `sy_risorse` (
 
 LOCK TABLES `sy_risorse` WRITE;
 /*!40000 ALTER TABLE `sy_risorse` DISABLE KEYS */;
-INSERT INTO `sy_risorse` VALUES (1,'Admin','','admin@gmail.com','','','','','','','',NULL,'','','','');
+INSERT INTO `sy_risorse` VALUES (1,'Admin','','admin@gmail.com','','','','',NULL,'','',1,'','','','');
 /*!40000 ALTER TABLE `sy_risorse` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -64,4 +64,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-07-07 15:55:38
+-- Dump completed on 2022-07-12 15:34:43
